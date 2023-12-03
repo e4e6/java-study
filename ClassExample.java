@@ -1,7 +1,6 @@
 class Circle {
     final static double PI = 3.141592;
     double radius;
-
     Circle(){
         this.radius = 1;
     }

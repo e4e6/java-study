@@ -6,8 +6,6 @@ import java.util.Scanner;
  * 숫자 2개 계산기
  */
 
-
- /*div() 메서드 예외처리 안했음 */
 class Calculator {
     double firstNum;
     double secondNum;
