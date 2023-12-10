@@ -1,3 +1,4 @@
+
 public class ThisMethod {
     public static void main(String[] args) {
         Korean han = new Korean("이름");

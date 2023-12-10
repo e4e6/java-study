@@ -79,6 +79,8 @@ public class TimeScheduler {
 
                 Student student = new Student(studentID, name);
                 scheduler.reserveTime(time, student);
+
+                scanner.close();
             } catch (NumberFormatException e) {
                 System.out.println("예외됨: 시간은 정수여야합니다.");
                 System.out.println("예외 발생 이유: " + e.getMessage());
